@@ -75,6 +75,7 @@ function createMovieList (films, parent) {
         });
     });
 };
+console.log();
 
 deleteAdv(promo__adv);
 createMovieList(movieDB.movies, promo__interactive_list);
